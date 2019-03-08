@@ -1,7 +1,6 @@
 import csv
 import pygal
 from datetime import datetime
-import matplotlib.dates as mdates
 
 # Get dates and high temperatures from file.
 filename = "List of Sierra Foreign Aid Projects.csv.csv"
