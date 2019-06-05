@@ -43,13 +43,37 @@ Python repo is a program that outputs the **most popular python repositories on 
 <img src="images/2019-03-08-02-47-57.png">
 
 As you can see, when you hover around the bars, it shows you descriptions of each one.
+when you hover around the country maps, it shows you descriptions of each one with the total population.
 
 **Libraries used**
 
 1. pygal
-2. requests
+
+**Modules**
+1. requests
 
 I imported pygal to be able to use the bar chart. I used requests module to be able to request the API from github and save it as json file.
 You can use **pip install pygal** in your command line/terminal to install the pygal library or any library to be able to work with this code.
+
+**GDP_line_plot_data.py**
+
+Python file **GDP_line_plot_data.py** with the code for the visualization of GDP data of countries and **isp_gdp_xy_sl+gn+li.svg** showing output in svg format. Data is from a csv file **isp_gdp.csv** collected from the **world bank** website.
+
+**Output**
+<img src="images/sl_gn_li.png">
+
+**Note**
+This program enables you to view the GDP data in svg of any country. All you need to do is to change the list in **test_render_xy_plot**
+function which has Sierra Leone, Guinea and Liberia to the country of your choice. It returns an empty svg file if there is no GDP data
+for that country in the **isp_gdp.csv** file.
+
+**Libraries used**
+
+1. pygal
+
+**Modules**
+
+1. csv
+
 
 Thank You
