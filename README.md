@@ -81,10 +81,10 @@ I downloaded a data file in csv format named **results.csv** that records intern
 Exploration and visualization of results.csv includes Home wins, Home losses, Home Draws, Away wins, Away losses, Aways for Sierra Leone in a bar chart. Total Matches played by different countries in a bar chart and a whole host of other analysis.
 
 **Outputs**
-<img src="images/start_data.png">
-<img src="images/table.png">
-<img src="images/salone.png">
-<img src="images/all_matches.png">
+<img src="images/start_data.PNG">
+<img src="images/table.PNG">
+<img src="images/salone.PNG">
+<img src="images/all_matches.PNG">
 
 **Libraries used**
 
