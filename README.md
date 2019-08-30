@@ -75,5 +75,25 @@ for that country in the **isp_gdp.csv** file.
 
 1. csv
 
+**football_matches.ipynb**
 
-Thank You
+I downloaded a data file in csv format named **results.csv** that records international matches of different countries whether friendly or tournaments, from 1872 to 2019, with the focus of exploration and analysis on the matches played by **Sierra Leone**.
+Exploration and visualization of results.csv includes Home wins, Home losses, Home Draws, Away wins, Away losses, Aways for Sierra Leone in a bar chart. Total Matches played by different countries in a bar chart and a whole host of other analysis.
+
+**Outputs**
+<img src="images/start_data.png">
+<img src="images/table.png">
+<img src="images/salone.png">
+<img src="images/all_matches.png">
+
+**Libraries used**
+
+1. pandas
+2. matplotlib
+3. seaborn
+4. pygal
+
+**Module**
+1. csv
+
+**Thank You**
