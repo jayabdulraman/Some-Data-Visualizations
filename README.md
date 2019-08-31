@@ -1,7 +1,7 @@
 # Some-Data-Visualizations
 
 I created some python data visualizations with the aim of working with external data file in csv, json format to be able
-to visualize them real time. This repository contains three of them. They are:
+to visualize them real time. This repository contains five of them. They are:
 
 **Africa.py**
 
@@ -77,7 +77,7 @@ for that country in the **isp_gdp.csv** file.
 
 **football_matches.ipynb**
 
-I downloaded a data file in csv format named **results.csv** that records international matches of different countries whether friendly or tournaments, from 1872 to 2019, with the focus of exploration and analysis on the matches played by **Sierra Leone**.
+I downloaded a data file in csv format from https://www.kaggle.com, named **results.csv** that records international matches of different countries whether friendlies or tournaments, from 1872 to 2019, with the focus on explorating, visualiazing and analyzing the matches played by **Sierra Leone**.
 Exploration and visualization of results.csv includes Home wins, Home losses, Home Draws, Away wins, Away losses, Aways for Sierra Leone in a bar chart. Total Matches played by different countries in a bar chart and a whole host of other analysis.
 
 **Outputs**
@@ -95,5 +95,8 @@ Exploration and visualization of results.csv includes Home wins, Home losses, Ho
 
 **Module**
 1. csv
+
+**Platform**
+- Jupyter Notebook
 
 **Thank You**
